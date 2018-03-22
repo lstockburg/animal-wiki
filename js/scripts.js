@@ -5,8 +5,11 @@ $(document).ready(function() {
     if (btnname === "gatorbtn") {
       $("#gator").show();
     }
+    else if (btnname === "ferretbtn") {
+      $("#ferret").show();
+    }
     else {
-
+      $("#ostrich").show();
     }
   });
 });
